@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url('Black.jpg');
+  column-count: 2;
+  margin-top: 1.5rem;
+  height: 500px;
+}
+
+.container {
+  margin: 2.5rem;
+  margin-top: 7rem;
+}
+
+.Inspiration {
+  position: relative;
+}
+
+.Inspi {
+  position: relative;
+  font-size: 50px;
+  color: black;
+  -webkit-text-stroke-color: rgb(0, 255, 179);
+  -webkit-text-stroke-width: 1.3px;
+}
+
+.Ration {
+  padding: 0;
+  position: relative;
+  bottom: 7px;
+  width: max-content;
+  font-size: 40px;
+  color: rgb(0, 255, 179);
+  background-color: rgba(0, 0, 0, 0.753);
+}
+
+.content {
+  color: #fff;
+  font-size: 10px;
+  width: 150px;
+}
+
+.Insta {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #fff;
+  width: fit-content;
+  border-radius: 3.5rem;
+  margin-top: 10px;
+  padding: 2px 7px 2px 3px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  background-color: green;
+  color: #fff;
+}
+
+.piccontainer {
+  position: relative;
+  top: 17rem;
+}
+
+img {
+  max-width: 100%;
+}
